@@ -1,0 +1,219 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+% Just in case someone needs a heading that does not need to be in a list
+\newcommand{\resumeHeading}[4]{
+    \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{Xuan Cuong Ho} & Email : \href{mailto:cuong1181998@gmail.com}{cuong1181998@gmail.com}\\
+  Blockchain Engineer & Mobile : \href{tel:+84357735333}{+84-35-773-5333} \\
+  & Github : \href{https://github.com/cuong1181998}{github/cuong1181998} \\
+  & Linked In : \href{https://www.linkedin.com/in/cuonghx110898}{linkedin/cuonghx110898} \\
+  & Blog : \href{https://cuonghx.gatsbyjs.io/}{https://cuonghx.gatsbyjs.io/} \\
+\end{tabular*}
+
+%-----------ABOUT-----------------
+\section{About}
+  {I'm a full-stack developer with many years of experience in Web Development since 2018, mostly using Javascript.} \\ \smallskip
+  {Now I develop and researching the EVM-compatible ecosystem.} \\ \smallskip
+  {I have good understanding at fundamental of computer science Data structure and Algorithms, Programming Paradigm, Cryptography, Database Design, etc} \\ \smallskip
+  {I have problem-solving skills and can work independently or in teamwork.} \\ \smallskip
+  {I'm looking for challenging jobs, learning new technology to solve problems.} \\
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Hanoi University of Science and Technology}{Hanoi, Vietnam}
+      {Engineer of Information Technology;  GPA: 3.03}{Sep. 2016 -- May. 2021}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {G.U Technologies}{Remote, Japan}
+      {Blockchain Engineer}{Mar 2022 - Present}
+      \resumeItemListStart
+        \resumeItem{Smart contract developer}
+          {ERC20, ERC721, etc}
+        \resumeItem{Building dapps based on EVM-compatible chain }
+          {NFT marketplace, NFT bridge, etc}
+        \resumeItem{Building related tools, SDK}
+          {Wallet Connector, etc}
+        \resumeItem{Skills}
+        {Solidity, React, Next.js, The Graph, NestJS}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {FPT Telecom International}{Hanoi, Vietnam}
+      {Software Engineer}{Apr 2021 - Feb 2022}
+      \resumeItemListStart
+        \resumeItem{Web developer}
+          {Building a live-stream platform combined with a sale management system}
+        \resumeItem{Skills}
+        {Nodejs, Apache Kafka, NestJS, React.js, MongoDB, Microservices}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {FPT Telecom International}{Hanoi, Vietnam}
+      {Software Engineer}{Aug 2020 - Apr 2021}
+      \resumeItemListStart
+        \resumeItem{Web developer}
+          {Outsourcing base on requirements}
+        \resumeItem{Skills}
+        {NestJS, React.js }
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {FPT Telecom International}{Hanoi, Vietnam}
+      {Intern}{Apr 2019 - Aug 2020}
+      \resumeItemListStart
+        \resumeItem{Web developer}
+          {Building enterprise management system on web service}
+        \resumeItem{Skills}
+        {React.js, Node.js, MongoDB, Microservices}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{NFT marketplace}
+      {Market platform buy and sell NFT on EVM-compatible chain.}
+    \resumeSubItem{NFT marketplace}
+      {Platform bridging NFT on between two EVM-compatible chains.}
+    \resumeSubItem{Livestream e-commerce}
+      {Platform live stream and sell products combine with sale management, shipping.}
+    \resumeSubItem{Enterprise management system}
+      {Microservice support enterprise management system such as IAM, CRM, Booking, etc}
+    \resumeSubItem{Receipt management base on ORC}
+      {Platform allow user capture receipt and manage monthly budget}
+    \resumeSubItem{Information Retrieval}
+      {Build crawler and search engine base on Solr}
+  \resumeSubHeadingListEnd
+
+%--------PROGRAMMING SKILLS------------
+\section{Programming Skills}
+ \resumeSubHeadingListStart
+  \resumeSubItem{Programing Languages}
+  {Javascript, Solidity}
+  \resumeSubItem{Database}
+  {MongoDB, MySQL, Postgresql}
+  \resumeSubItem{Protocol}
+  {RestFul, GraphQl, Socket, MessageQueue}
+  \resumeSubItem{Software Architecture}
+  {Microservice, MVC}
+  \resumeSubItem{Framework}
+  {ReactJS, NextJS, NestJS, SocketIO, Apache Kafka, RabbitMQ}
+  \resumeSubItem{Services}
+  {The Graph}
+ \resumeSubHeadingListEnd
+
+%--------LANGUAGE SKILLS------------
+\section{Programming Skills}
+ \resumeSubHeadingListStart
+  \resumeSubItem{English}
+  {Professional working proficiency}
+  \resumeSubItem{Vietnamese}
+  {Native or bilingual proficiency}
+ \resumeSubHeadingListEnd
+
+%--------AWARDS------------
+\section{Awards}
+  \begin{itemize}[leftmargin=*]
+    \item Mathematics competition in Vinh City in 2013
+  \end{itemize}
+%-------------------------------------------
+\end{document}
