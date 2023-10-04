@@ -1,5 +1,5 @@
 # Overview
-The personal resume using Latex
+The resume generator using Latex
 # Build
 ```sh
 docker build -t latex .
